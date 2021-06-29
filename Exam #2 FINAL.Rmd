@@ -1,0 +1,29 @@
+---
+title: "Exam#2 cdw3565"
+author: "Cameron Williamson"
+date: "6/28/2021"
+output:
+  word_document: default
+  pdf_document: default
+---
+
+#clear enviornment
+rm(list=ls(all=TRUE))
+
+#summary 
+summary(college_scorecard)
+
+#load stargazer
+library(stargazer)
+
+#summary 
+stargazer(college_scorecard, type = "text")
+
+#create smaller dataset 
+
+
+#Create "year" for avocados
+
+
+
+# Bonus- "My Heart Will Go On"- Céline Dion
